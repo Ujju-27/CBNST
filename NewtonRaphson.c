@@ -5,7 +5,7 @@ double polyfunc(double x){
     return (x*x*x-4*x-9);
 }
 
-double diffFunc(double x){
+double diffFunc(double x){ 
     double ans = 3*x*x-4;
     return ans; 
 }
