@@ -1,24 +1,24 @@
 #include <stdio.h>
 #include <math.h>
 
-double polyFunc(double x)
+double fx(double x)
 {
     return x*x*x - 2*x*x - 4;
 }
 
-double diffFunc(double x)
+double gx(double x)
 {
-    return 3*x*x - 4*x;
+    return cbrt(2*x*x+4);
 }
 
-double xForm(double x)
+double hx(double x)
 {
-    return ;
+    return 4*x/(3*cbrt(pow(2*x*x+4,2)));
 }
 int steps = 0;
 void calIterative(double x)
 {
-    double y = xForm(x);
+    double y = gx(x);
     steps++;
     printf("%d  Iteration and the value of x is - %f\n", steps, x);
     if (fabs(y - x) <= 0.0001)
@@ -29,16 +29,16 @@ void calIterative(double x)
 int main()
 {
 
-    double x;
+    double x,y;
 
     printf("Enter the guessed value - ");
-    scanf("%f", &x);
+    scanf("%lf %lf", &x,&y);
 
-    if (diffFunc(x) < 1)
+    if (hx(x) < 1 && hx(y) < 1)
     {
 
-        printf("Input is satisfying the condition\n");
-        calIterative(x);
+        printf("Roots are Accepted...\n");
+        calIterative((x+y)/2);
     }
     else
         printf("Oops invalid input!!!");
