@@ -70,3 +70,28 @@ Link: [Netwon Raphson](https://github.com/Ujju-27/CBNST/tree/main/NRaphsonMethod
 5.	Write a program in C to find the roots of any non-polynomial equation using Iteration method correct up to four decimal places.
 
 Link: [Iterative](https://github.com/Ujju-27/CBNST/tree/main/IterativeMethod)
+
+## Practical-06
+5.	Write a program in C to find the roots of any non-polynomial equation using Iteration method correct up to four decimal places.
+
+Link: [Iterative](https://github.com/Ujju-27/CBNST/tree/main/GaussElimination)
+
+## Practical-07
+5.	Write a program in C to find the roots of any non-polynomial equation using Iteration method correct up to four decimal places.
+
+Link: [Iterative](https://github.com/Ujju-27/CBNST/tree/main/GaussJordan)
+
+## Practical-08
+5.	Write a program in C to find the roots of any non-polynomial equation using Iteration method correct up to four decimal places.
+
+Link: [Iterative](https://github.com/Ujju-27/CBNST/tree/main/GaussSeidal)
+
+## Practical-09
+5.	Write a program in C to find the roots of any non-polynomial equation using Newton Forward Interpolation method correct up to four decimal places.
+
+Link: [Iterative](https://github.com/Ujju-27/CBNST/tree/main/NewtonForward)
+
+## Practical-10
+5.	Write a program in C to find the roots of any non-polynomial equation using Newton Backward Interpolation method correct up to four decimal places.
+
+Link: [Iterative](https://github.com/Ujju-27/CBNST/tree/main/NewtonBackward)
