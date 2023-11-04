@@ -39,11 +39,11 @@ To Run them use following commands every execution is attached in output in abov
 ```
 
 ```
-  gcc program_Name.c
+  gcc -o a program_Name.c
 ```
 
 ```
-  ./a.out
+  ./a
 ```
 
 ## Practical-01
