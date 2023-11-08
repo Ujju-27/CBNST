@@ -31,6 +31,6 @@ int main(){
         } 
         sum = sum + (product * Y[i]);
     }
-    printf("\nValue of x is %0.2f and Sum is = %0.2f\n" , x , sum);
+    printf("\nValue of x is %0.2f and F(x) is = %0.2f\n" , x , sum);
     return 0;
 }
